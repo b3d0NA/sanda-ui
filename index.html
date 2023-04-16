@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sanda UI</title>
+		<link rel="stylesheet" href="css/stylesheet.css" />
+	</head>
+	<body>
+		<header>
+			<div class="nav container">
+				<input type="checkbox" id="nav-check" />
+				<div class="nav-header">
+					<div class="nav-title">
+						<a class="nav-logo" href="index.html">
+							<img src="images/logo.png" alt="S & A Athletic" />
+							<img src="images/sa.png" alt="S & A Athletic" />
+						</a>
+					</div>
+				</div>
+				<div class="nav-btn">
+					<label for="nav-check">
+						<span></span>
+						<span></span>
+					</label>
+				</div>
+
+				<div class="nav-links">
+					<a href="#">Packages & Subscriptions</a>
+					<a class="nav-cta" href="#">Get in Touch</a>
+				</div>
+			</div>
+			<div class="hero-section">
+				<div class="hero container">
+					<div class="hero-left">
+						<h1>
+							Lorem ipsum dolor sit amet, sonet nem ore iracundia.
+						</h1>
+						<a href="#" class="primary-btn"
+							>Packages & Subscriptions</a
+						>
+					</div>
+					<div class="hero-right">
+						<div class="hero-img">
+							<img
+								src="images/hero.png"
+								alt="Packages & Subscriptions"
+							/>
+						</div>
+						<div class="hero-social">
+							<a href="#">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M0.909058 9.59875C0.909058 14.3444 4.35576 18.2907 8.8636 19.0909V12.1967H6.47724V9.54545H8.8636V7.42398C8.8636 5.03761 10.4012 3.71239 12.576 3.71239C13.2649 3.71239 14.0078 3.81818 14.6967 3.92398V6.36364H13.4772C12.3103 6.36364 12.0454 6.9467 12.0454 7.68966V9.54545H14.5909L14.1669 12.1967H12.0454V19.0909C16.5533 18.2907 20 14.3452 20 9.59875C20 4.31932 15.7045 0 10.4545 0C5.20451 0 0.909058 4.31932 0.909058 9.59875Z"
+										fill="white"
+									/>
+								</svg>
+							</a>
+							<a href="#">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M14.6847 0.970342C15.6536 1.01489 16.3234 1.15727 16.9422 1.3975C17.529 1.6169 18.0603 1.9629 18.4981 2.41091C18.9462 2.8488 19.2922 3.38003 19.5116 3.96682C19.7518 4.58648 19.8942 5.25546 19.9387 6.22432C19.9936 7.42546 20 7.84864 20 10.4545C20 13.0605 19.9936 13.4836 19.9387 14.6848C19.8942 15.6536 19.7518 16.3234 19.5116 16.9431C19.2921 17.5296 18.9461 18.0605 18.4981 18.4982C18.0603 18.9462 17.529 19.2922 16.9422 19.5116C16.3226 19.7518 15.6536 19.8942 14.6847 19.9388C13.4836 19.9936 13.0612 20 10.4545 20C7.84781 20 7.42463 19.9936 6.22429 19.9388C5.25542 19.8942 4.58565 19.7518 3.96599 19.5116C3.37947 19.2921 2.84852 18.9461 2.41088 18.4982C1.96287 18.0603 1.61686 17.5291 1.39747 16.9423C1.15724 16.3226 1.01485 15.6536 0.970308 14.6848C0.915421 13.4852 0.909058 13.062 0.909058 10.4545C0.909058 7.84784 0.915421 7.42386 0.970308 6.22432C1.01485 5.25546 1.15724 4.58568 1.39747 3.96682C1.61686 3.38003 1.96287 2.8488 2.41088 2.41091C2.84853 1.963 3.37949 1.617 3.96599 1.3975C4.58644 1.15727 5.25542 1.01489 6.22429 0.970342C7.42383 0.915456 7.84701 0.909092 10.4545 0.909092C13.0612 0.909092 13.4852 0.915456 14.6847 0.970342ZM10.4545 3.03057C7.87724 3.03057 7.48269 3.03614 6.32054 3.08943C5.58315 3.12284 5.14088 3.21671 4.7344 3.375C4.38838 3.51023 4.16804 3.65341 3.91031 3.91034C3.65258 4.16807 3.5094 4.38841 3.37497 4.73443C3.21747 5.14011 3.12281 5.58318 3.0894 6.32057C3.0361 7.48273 3.03053 7.87727 3.03053 10.4545C3.03053 13.0318 3.0361 13.4264 3.0894 14.5885C3.12281 15.3259 3.21667 15.7682 3.37497 16.1739C3.51019 16.5207 3.65338 16.741 3.91031 16.9988C4.16804 17.2565 4.38838 17.3997 4.7344 17.5341C5.14008 17.6916 5.58315 17.7863 6.32054 17.8197C7.48349 17.873 7.87804 17.8785 10.4545 17.8785C13.0318 17.8785 13.4255 17.873 14.5885 17.8197C15.3259 17.7863 15.7681 17.6924 16.1746 17.5341C16.5206 17.3989 16.741 17.2557 16.9987 16.9988C17.2564 16.741 17.3996 16.5207 17.5341 16.1747C17.6916 15.769 17.7862 15.3259 17.8196 14.5885C17.8729 13.4256 17.8785 13.031 17.8785 10.4545C17.8785 7.87807 17.8729 7.48352 17.8196 6.32057C17.7862 5.58318 17.6924 5.14091 17.5341 4.73523C17.4216 4.42268 17.2384 4.14037 16.9987 3.91034C16.7687 3.67068 16.4864 3.48746 16.1738 3.375C15.7681 3.2175 15.3251 3.12284 14.5877 3.08943C13.4255 3.03614 13.031 3.03057 10.4537 3.03057H10.4545ZM10.4545 15.4039C9.14187 15.4039 7.88299 14.8824 6.95482 13.9542C6.02664 13.0261 5.50519 11.7672 5.50519 10.4545C5.50519 9.14191 6.02664 7.88303 6.95482 6.95485C7.88299 6.02667 9.14187 5.50523 10.4545 5.50523C11.7672 5.50523 13.026 6.02667 13.9542 6.95485C14.8824 7.88303 15.4038 9.14191 15.4038 10.4545C15.4038 11.7672 14.8824 13.0261 13.9542 13.9542C13.026 14.8824 11.7672 15.4039 10.4545 15.4039ZM10.4545 13.2832C11.2047 13.2832 11.9242 12.9852 12.4547 12.4547C12.9851 11.9242 13.2831 11.2047 13.2831 10.4545C13.2831 9.70435 12.9851 8.98487 12.4547 8.4544C11.9242 7.92393 11.2047 7.62591 10.4545 7.62591C9.70431 7.62591 8.98484 7.92393 8.45436 8.4544C7.92389 8.98487 7.62588 9.70435 7.62588 10.4545C7.62588 11.2047 7.92389 11.9242 8.45436 12.4547C8.98484 12.9852 9.70431 13.2832 10.4545 13.2832ZM15.4038 6.56557C15.1225 6.56557 14.8527 6.45381 14.6538 6.25489C14.4548 6.05596 14.3431 5.78616 14.3431 5.50483C14.3431 5.22351 14.4548 4.9537 14.6538 4.75478C14.8527 4.55585 15.1225 4.44409 15.4038 4.44409C15.6852 4.44409 15.955 4.55585 16.1539 4.75478C16.3528 4.9537 16.4646 5.22351 16.4646 5.50483C16.4646 5.78616 16.3528 6.05596 16.1539 6.25489C15.955 6.45381 15.6852 6.56557 15.4038 6.56557Z"
+										fill="white"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="coaching-section">
+			<div class="coaching-top container">
+				<div class="coaching-top-left">
+					<img src="images/coaching.png" alt="About Me" />
+				</div>
+				<div class="coaching-top-right">
+					<h2>
+						Lorem ipsum dolor sit amet, sonet nem ore iracundia.
+					</h2>
+					<a href="#" class="primary-btn coaching-cta">About Me</a>
+				</div>
+				<div class="coaching-top-bg"></div>
+			</div>
+			<div class="coaching container">
+				<h4>PACKAGES & SUBSCRIPTIONS</h4>
+				<h2>Online Coaching</h2>
+				<div class="coaching-packages">
+					<div class="coaching-package basic-package">
+						<h5>Basic</h5>
+
+						<h3><sup>£</sup>50</h3>
+						<h4>Per month</h4>
+						<h4 class="coaching-package-feature crossed-feature">
+							+ Nutrition support and check ins
+						</h4>
+						<p>
+							A customised training programme delivered to your
+							inbox and designed around your goals, lifestyle and
+							current ability. Including weekly, twice monthly or
+							monthly check ins with me
+						</p>
+						<button class="primary-outline-btn buy-now">
+							Buy now
+						</button>
+					</div>
+					<div class="coaching-package pro-package clear">
+						<h5>Pro</h5>
+
+						<h3><sup>£</sup>70</h3>
+						<h4>Per month</h4>
+						<h4 class="coaching-package-feature">
+							+ Nutrition support and check ins
+						</h4>
+						<p>
+							A customised training programme delivered to your
+							inbox and designed around your goals, lifestyle and
+							current ability. Including weekly, twice monthly or
+							monthly check ins with me
+						</p>
+						<button class="primary-outline-btn buy-now">
+							Buy now
+						</button>
+						<div class="best-value"><span>Best value</span></div>
+					</div>
+				</div>
+				<div class="everyday-section">
+					<h2>#EverydayAthlete</h2>
+					<div class="coaching-package everyday-coaching">
+						<h3><sup>£</sup>29.95</h3>
+						<h4>Per month</h4>
+						<h4 class="coaching-package-feature">
+							Cancel any time
+						</h4>
+						<p>
+							A gym based programme geared towards releasing your
+							inner athlete. The programme is sent out weekly to
+							your inbox. You will look to build strength in your
+							whole body and build capacity in your engine.
+							Whether you’re a weekend warrior playing for your
+							local team or you’re a parent trying to keep up with
+							your kids in the park and everyone in between, this
+							plans caters for you and your body.
+						</p>
+						<div class="everyday-coaching-feature">
+							<svg
+								width="18"
+								height="18"
+								viewBox="0 0 18 18"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle cx="9" cy="9" r="9" fill="#E5E5E5" />
+								<path
+									d="M5 9L8 12L13 6"
+									stroke="black"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+
+							<span>4 x week training</span>
+						</div>
+						<div class="everyday-coaching-feature">
+							<svg
+								width="18"
+								height="18"
+								viewBox="0 0 18 18"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle cx="9" cy="9" r="9" fill="#E5E5E5" />
+								<path
+									d="M5 9L8 12L13 6"
+									stroke="black"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+
+							<span>Optional active recovery day</span>
+						</div>
+						<button class="primary-outline-btn buy-now">
+							Buy now
+						</button>
+					</div>
+				</div>
+				<div class="coaching-bg-border"></div>
+			</div>
+		</section>
+
+		<section class="testimonials-section">
+			<div class="testimonials-wrapper container">
+				<div class="testimonial-heading">
+					<h2>my clients have seen results lorem ipsum</h2>
+				</div>
+
+				<div class="tesimonials">
+					<div class="testimonial">
+						<p>
+							The workouts are hard but so rewarding. I’ve learnt
+							so many new skills and found a whole new burst of
+							motivation just from you setting me targets to
+							smash. The feedback you give me pushes me keep
+							working hard.
+						</p>
+						<h5>#EverydayAthlete Member</h5>
+						<svg
+							width="116"
+							height="77"
+							viewBox="0 0 116 77"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M51.3602 76.0149V25.3383H39.4512L52.1203 0H15.7599L0.683594 30.1526V76.0149H51.3602ZM114.706 76.0149V25.3383H102.797L115.466 0H79.1056L64.0294 30.1526V76.0149H114.706Z"
+								fill="#190B04"
+							/>
+						</svg>
+					</div>
+					<div class="testimonial">
+						<p>
+							Your online programming has helped me when I was at
+							an all time low following an injury, giving me the
+							structure and focus that I was in desperate need of.
+						</p>
+						<h5>Online Bespoke Client</h5>
+						<svg
+							width="116"
+							height="77"
+							viewBox="0 0 116 77"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M51.3602 76.0149V25.3383H39.4512L52.1203 0H15.7599L0.683594 30.1526V76.0149H51.3602ZM114.706 76.0149V25.3383H102.797L115.466 0H79.1056L64.0294 30.1526V76.0149H114.706Z"
+								fill="#190B04"
+							/>
+						</svg>
+					</div>
+					<div class="testimonial">
+						<p>
+							I can see progress with both my injury and my
+							strength in general following the programming and
+							your commitment to everyone you coach is been
+							incredible.
+						</p>
+						<h5>Online Bespoke Client</h5>
+						<svg
+							width="116"
+							height="77"
+							viewBox="0 0 116 77"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M51.3602 76.0149V25.3383H39.4512L52.1203 0H15.7599L0.683594 30.1526V76.0149H51.3602ZM114.706 76.0149V25.3383H102.797L115.466 0H79.1056L64.0294 30.1526V76.0149H114.706Z"
+								fill="#190B04"
+							/>
+						</svg>
+					</div>
+					<div class="testimonial">
+						<p>
+							Following the programme with consistency and intent
+							has allowed me to feel and look the strongest and
+							fittest I’ve ever been. I feel more educated by what
+							proper programming and nutrition should look like
+							through S&A Athletic’s coaching
+						</p>
+						<h5>#EverydayAthlete Member</h5>
+						<svg
+							width="116"
+							height="77"
+							viewBox="0 0 116 77"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M51.3602 76.0149V25.3383H39.4512L52.1203 0H15.7599L0.683594 30.1526V76.0149H51.3602ZM114.706 76.0149V25.3383H102.797L115.466 0H79.1056L64.0294 30.1526V76.0149H114.706Z"
+								fill="#190B04"
+							/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="aboutme-section">
+			<div class="aboutme-wrapper container">
+				<div class="about-left">
+					<h5>About me</h5>
+					<h2>I’m Sam Hill</h2>
+					<p>
+						In has malis simul vitae. Id vis iudicabit scripserit,
+						mei et evertitur incorrupte. Vim id justo latine
+						deseruisse. Pro cu stet commodo. Eam ne nulla aliquip,
+						vim te commodo perfecto quaerendum, ea enim eloquentiam
+						delicatissimi eos. Ius omnes gloriatur id.
+					</p>
+					<p>
+						Pro cu stet commodo. Eam ne nulla aliquip, vim te
+						commodo perfecto quaerendum, ea enim eloquentiam
+						delicatissimi eos. Ius omnes gloriatur id.
+					</p>
+					<ul>
+						<li>Qualification 1</li>
+						<li>Qualification 2</li>
+						<li>Qualification 3</li>
+						<li>Qualification 4</li>
+						<li>Qualification 5</li>
+					</ul>
+				</div>
+				<div class="about-right">
+					<img src="images/sam-hill.png" alt="Sam Hill" />
+				</div>
+			</div>
+		</section>
+
+		<section class="feed-section">
+			<div class="insta-feed-wrapper container">
+				<h2>my instagram feed</h2>
+				<div class="insta-feed">
+					<img src="images/insta1.png" alt="Insta feed 1" />
+					<img src="images/insta2.png" alt="Insta feed 2" />
+					<img src="images/insta3.png" alt="Insta feed 3" />
+					<img src="images/insta4.png" alt="Insta feed 4" />
+					<img src="images/insta5.png" alt="Insta feed 5" />
+					<img src="images/insta6.png" alt="Insta feed 6" />
+					<img src="images/insta7.png" alt="Insta feed 7" />
+					<img src="images/insta8.png" alt="Insta feed 8" />
+					<img src="images/insta9.png" alt="Insta feed 9" />
+				</div>
+				<div class="insta-feed-cta">
+					<a href="#" class="primary-outline-btn">Follow me</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer-cta-section">
+			<div class="footer-cta container">
+				<h2>Got a question?</h2>
+				<a href="#" class="primary-btn">Get in touch</a>
+			</div>
+		</section>
+
+		<section class="footer-nav">
+			<div class="nav container">
+				<input type="checkbox" id="nav-check" />
+				<div class="nav-header">
+					<div class="nav-title">
+						<div class="nav-logo">
+							<img src="images/logo.png" alt="S & A Athletic" />
+							<img src="images/sa.png" alt="S & A Athletic" />
+						</div>
+					</div>
+				</div>
+				<div class="nav-links">
+					<a href="#">Packages & Subscriptions</a>
+					<a class="nav-cta" href="#">Get in Touch</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-wrapper container">
+				<div class="footer-copyright">
+					<span>© S & A Athletic 2021</span>
+				</div>
+				<div class="footer-socials">
+					<a href="#">
+						<svg
+							width="20"
+							height="20"
+							viewBox="0 0 20 20"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M0.909058 9.59875C0.909058 14.3444 4.35576 18.2907 8.8636 19.0909V12.1967H6.47724V9.54545H8.8636V7.42398C8.8636 5.03761 10.4012 3.71239 12.576 3.71239C13.2649 3.71239 14.0078 3.81818 14.6967 3.92398V6.36364H13.4772C12.3103 6.36364 12.0454 6.9467 12.0454 7.68966V9.54545H14.5909L14.1669 12.1967H12.0454V19.0909C16.5533 18.2907 20 14.3452 20 9.59875C20 4.31932 15.7045 0 10.4545 0C5.20451 0 0.909058 4.31932 0.909058 9.59875Z"
+								fill="white"
+							/>
+						</svg>
+					</a>
+					<a href="#">
+						<svg
+							width="20"
+							height="20"
+							viewBox="0 0 20 20"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M14.6847 0.970342C15.6536 1.01489 16.3234 1.15727 16.9422 1.3975C17.529 1.6169 18.0603 1.9629 18.4981 2.41091C18.9462 2.8488 19.2922 3.38003 19.5116 3.96682C19.7518 4.58648 19.8942 5.25546 19.9387 6.22432C19.9936 7.42546 20 7.84864 20 10.4545C20 13.0605 19.9936 13.4836 19.9387 14.6848C19.8942 15.6536 19.7518 16.3234 19.5116 16.9431C19.2921 17.5296 18.9461 18.0605 18.4981 18.4982C18.0603 18.9462 17.529 19.2922 16.9422 19.5116C16.3226 19.7518 15.6536 19.8942 14.6847 19.9388C13.4836 19.9936 13.0612 20 10.4545 20C7.84781 20 7.42463 19.9936 6.22429 19.9388C5.25542 19.8942 4.58565 19.7518 3.96599 19.5116C3.37947 19.2921 2.84852 18.9461 2.41088 18.4982C1.96287 18.0603 1.61686 17.5291 1.39747 16.9423C1.15724 16.3226 1.01485 15.6536 0.970308 14.6848C0.915421 13.4852 0.909058 13.062 0.909058 10.4545C0.909058 7.84784 0.915421 7.42386 0.970308 6.22432C1.01485 5.25546 1.15724 4.58568 1.39747 3.96682C1.61686 3.38003 1.96287 2.8488 2.41088 2.41091C2.84853 1.963 3.37949 1.617 3.96599 1.3975C4.58644 1.15727 5.25542 1.01489 6.22429 0.970342C7.42383 0.915456 7.84701 0.909092 10.4545 0.909092C13.0612 0.909092 13.4852 0.915456 14.6847 0.970342ZM10.4545 3.03057C7.87724 3.03057 7.48269 3.03614 6.32054 3.08943C5.58315 3.12284 5.14088 3.21671 4.7344 3.375C4.38838 3.51023 4.16804 3.65341 3.91031 3.91034C3.65258 4.16807 3.5094 4.38841 3.37497 4.73443C3.21747 5.14011 3.12281 5.58318 3.0894 6.32057C3.0361 7.48273 3.03053 7.87727 3.03053 10.4545C3.03053 13.0318 3.0361 13.4264 3.0894 14.5885C3.12281 15.3259 3.21667 15.7682 3.37497 16.1739C3.51019 16.5207 3.65338 16.741 3.91031 16.9988C4.16804 17.2565 4.38838 17.3997 4.7344 17.5341C5.14008 17.6916 5.58315 17.7863 6.32054 17.8197C7.48349 17.873 7.87804 17.8785 10.4545 17.8785C13.0318 17.8785 13.4255 17.873 14.5885 17.8197C15.3259 17.7863 15.7681 17.6924 16.1746 17.5341C16.5206 17.3989 16.741 17.2557 16.9987 16.9988C17.2564 16.741 17.3996 16.5207 17.5341 16.1747C17.6916 15.769 17.7862 15.3259 17.8196 14.5885C17.8729 13.4256 17.8785 13.031 17.8785 10.4545C17.8785 7.87807 17.8729 7.48352 17.8196 6.32057C17.7862 5.58318 17.6924 5.14091 17.5341 4.73523C17.4216 4.42268 17.2384 4.14037 16.9987 3.91034C16.7687 3.67068 16.4864 3.48746 16.1738 3.375C15.7681 3.2175 15.3251 3.12284 14.5877 3.08943C13.4255 3.03614 13.031 3.03057 10.4537 3.03057H10.4545ZM10.4545 15.4039C9.14187 15.4039 7.88299 14.8824 6.95482 13.9542C6.02664 13.0261 5.50519 11.7672 5.50519 10.4545C5.50519 9.14191 6.02664 7.88303 6.95482 6.95485C7.88299 6.02667 9.14187 5.50523 10.4545 5.50523C11.7672 5.50523 13.026 6.02667 13.9542 6.95485C14.8824 7.88303 15.4038 9.14191 15.4038 10.4545C15.4038 11.7672 14.8824 13.0261 13.9542 13.9542C13.026 14.8824 11.7672 15.4039 10.4545 15.4039ZM10.4545 13.2832C11.2047 13.2832 11.9242 12.9852 12.4547 12.4547C12.9851 11.9242 13.2831 11.2047 13.2831 10.4545C13.2831 9.70435 12.9851 8.98487 12.4547 8.4544C11.9242 7.92393 11.2047 7.62591 10.4545 7.62591C9.70431 7.62591 8.98484 7.92393 8.45436 8.4544C7.92389 8.98487 7.62588 9.70435 7.62588 10.4545C7.62588 11.2047 7.92389 11.9242 8.45436 12.4547C8.98484 12.9852 9.70431 13.2832 10.4545 13.2832ZM15.4038 6.56557C15.1225 6.56557 14.8527 6.45381 14.6538 6.25489C14.4548 6.05596 14.3431 5.78616 14.3431 5.50483C14.3431 5.22351 14.4548 4.9537 14.6538 4.75478C14.8527 4.55585 15.1225 4.44409 15.4038 4.44409C15.6852 4.44409 15.955 4.55585 16.1539 4.75478C16.3528 4.9537 16.4646 5.22351 16.4646 5.50483C16.4646 5.78616 16.3528 6.05596 16.1539 6.25489C15.955 6.45381 15.6852 6.56557 15.4038 6.56557Z"
+								fill="white"
+							/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="modal buy-first-step">
+			<div class="modal-content">
+				<span class="close-button"
+					><svg
+						width="15"
+						height="15"
+						viewBox="0 0 15 15"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M6.54419 7.48256L0.681274 13.3455L1.81836 14.4826L7.68127 8.61964L13.5442 14.4826L14.6813 13.3455L8.81836 7.48256L14.6813 1.61964L13.5442 0.482559L7.68127 6.34548L1.81836 0.482559L0.681274 1.61964L6.54419 7.48256Z"
+							fill="black"
+						/>
+					</svg>
+				</span>
+				<div class="buy-now-step-wrapper">
+					<div class="buy-now-step-left">
+						<div class="coaching-package">
+							<h5>Pro</h5>
+
+							<h3><sup>£</sup>70</h3>
+							<h4>Per month</h4>
+							<h4 class="coaching-package-feature">
+								+ Nutrition support and check ins
+							</h4>
+							<p>
+								A customised training programme delivered to
+								your inbox and designed around your goals,
+								lifestyle and current ability. Including weekly,
+								twice monthly or monthly check ins with me
+							</p>
+						</div>
+					</div>
+					<div class="buy-now-step-right">
+						<h3>Enter your info</h3>
+						<form action="#">
+							<div class="form-input">
+								<label for="name">Your name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="form-input">
+								<label for="email">Your email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<div class="form-input">
+								<label for="phone">Your phone</label>
+								<input type="number" name="phone" id="phone" />
+							</div>
+							<div class="form-input">
+								<button
+									id="infoSubmit"
+									type="submit"
+									class="primary-btn --full-width"
+								>
+									Continue to payment
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal buy-payment-step">
+			<div class="modal-content">
+				<span class="close-button"
+					><svg
+						width="15"
+						height="15"
+						viewBox="0 0 15 15"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M6.54419 7.48256L0.681274 13.3455L1.81836 14.4826L7.68127 8.61964L13.5442 14.4826L14.6813 13.3455L8.81836 7.48256L14.6813 1.61964L13.5442 0.482559L7.68127 6.34548L1.81836 0.482559L0.681274 1.61964L6.54419 7.48256Z"
+							fill="black"
+						/>
+					</svg>
+				</span>
+				<div class="buy-now-step-wrapper">
+					<div class="buy-now-step-left">
+						<div class="coaching-package">
+							<h5>Pro</h5>
+
+							<h3><sup>£</sup>70</h3>
+							<h4>Per month</h4>
+							<h4 class="coaching-package-feature">
+								+ Nutrition support and check ins
+							</h4>
+							<p>
+								A customised training programme delivered to
+								your inbox and designed around your goals,
+								lifestyle and current ability. Including weekly,
+								twice monthly or monthly check ins with me
+							</p>
+						</div>
+					</div>
+					<div class="buy-now-step-right payment-step">
+						<h3>Enter your info</h3>
+						<span
+							>Powered by
+							<svg
+								width="28"
+								height="12"
+								viewBox="0 0 28 12"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_30_205)">
+									<path
+										d="M1.96777 4.68135C1.96777 4.37036 2.21665 4.25069 2.62894 4.25069C3.22 4.25069 3.96665 4.43417 4.55777 4.76114V2.88695C3.91223 2.62379 3.27447 2.52011 2.62894 2.52011C1.05 2.52011 0 3.3655 0 4.77712C0 6.97817 2.95553 6.62731 2.95553 7.57637C2.95553 7.94316 2.64447 8.06282 2.20888 8.06282C1.56335 8.06282 0.738883 7.79165 0.0855312 7.4248V9.32288C0.808883 9.64189 1.54 9.77742 2.20888 9.77742C3.82665 9.77742 4.93888 8.95604 4.93888 7.52849C4.93112 5.15193 1.96777 5.57456 1.96777 4.68135ZM7.22553 0.925121L5.32777 1.33979L5.32 7.72783C5.32 8.90821 6.18335 9.77742 7.33447 9.77742C7.97223 9.77742 8.43888 9.65781 8.69553 9.51426V7.89533C8.4467 7.99901 7.21777 8.36585 7.21777 7.18553V4.35437H8.69553V2.6557H7.21777L7.22553 0.925121ZM11.1145 3.24583L10.99 2.6557H9.31V9.63387H11.2545V4.90469C11.7133 4.29062 12.4911 4.40226 12.7322 4.48996V2.6557C12.4834 2.55998 11.5734 2.38452 11.1145 3.24583ZM13.2066 2.6557H15.1589V9.63387H13.2066V2.6557ZM13.2066 2.04959L15.1589 1.61893V0L13.2066 0.422692V2.04953V2.04959ZM19.2189 2.52011C18.4566 2.52011 17.9666 2.88695 17.6945 3.14221L17.5933 2.64774H15.8822V11.9466L17.8266 11.524L17.8345 9.26703C18.1145 9.47439 18.5266 9.76946 19.2111 9.76946C20.6034 9.76946 21.8711 8.62105 21.8711 6.09297C21.8633 3.78017 20.58 2.52011 19.2189 2.52011ZM18.7522 8.01493C18.2934 8.01493 18.0211 7.8475 17.8345 7.64013L17.8266 4.68135C18.0289 4.45009 18.3089 4.29062 18.7522 4.29062C19.46 4.29062 19.95 5.10404 19.95 6.14877C19.95 7.21744 19.4678 8.01493 18.7522 8.01493ZM28 6.17271C28 4.13108 27.0355 2.52011 25.1922 2.52011C23.3411 2.52011 22.2211 4.13114 22.2211 6.15679C22.2211 8.55723 23.5434 9.76946 25.4411 9.76946C26.3666 9.76946 27.0666 9.55413 27.5955 9.2511V7.65606C27.0667 7.92723 26.46 8.09473 25.69 8.09473C24.9355 8.09473 24.2666 7.82355 24.1811 6.8825H27.9845C27.9845 6.77877 28 6.36409 28 6.17271ZM24.1578 5.41508C24.1578 4.51391 24.6945 4.13905 25.1845 4.13905C25.6589 4.13905 26.1645 4.51391 26.1645 5.41508H24.1578Z"
+										fill="#6772E5"
+									/>
+								</g>
+								<defs>
+									<clipPath id="clip0_30_205">
+										<rect
+											width="28"
+											height="12"
+											fill="white"
+										/>
+									</clipPath>
+								</defs>
+							</svg>
+						</span>
+						<form action="#">
+							<div class="form-input">
+								<label for="cardName">Name on card</label>
+								<input
+									type="text"
+									name="cardName"
+									id="cardName"
+								/>
+							</div>
+							<div class="form-input">
+								<label for="cardNumber">Card number</label>
+								<input
+									type="number"
+									name="cardNumber"
+									id="cardNumber"
+								/>
+							</div>
+							<div class="form-row">
+								<div class="form-input">
+									<label for="expiryMonth">Expiry</label>
+									<div class="flex-row">
+										<select
+											name="expiryMonth"
+											id="expiryMonth"
+										>
+											<option value="MM" disabled>
+												MM
+											</option>
+											<option value="01">January</option>
+											<option value="02">February</option>
+											<option value="03">March</option>
+											<option value="04">April</option>
+											<option value="05">May</option>
+											<option value="06">June</option>
+											<option value="07">July</option>
+											<option value="08">August</option>
+											<option value="09">
+												September
+											</option>
+											<option value="10">October</option>
+											<option value="11">November</option>
+											<option value="12">December</option>
+										</select>
+										<select
+											name="expiryYear"
+											id="expiryYear"
+										>
+											<option value="YY" disabled>
+												YY
+											</option>
+											<option value="2023">2023</option>
+											<option value="2024">2024</option>
+											<option value="2025">2025</option>
+											<option value="2026">2026</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-input">
+									<label for="cardCVV">CVV</label>
+									<input
+										type="number"
+										name="cardCVV"
+										id="cardCVV"
+									/>
+								</div>
+							</div>
+							<div class="form-input">
+								<button
+									id="paymentSubmit"
+									type="submit"
+									class="primary-btn --full-width"
+								>
+									Pay £70 and finish
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal buy-success-step">
+			<div class="modal-content">
+				<span class="close-button"
+					><svg
+						width="15"
+						height="15"
+						viewBox="0 0 15 15"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M6.54419 7.48256L0.681274 13.3455L1.81836 14.4826L7.68127 8.61964L13.5442 14.4826L14.6813 13.3455L8.81836 7.48256L14.6813 1.61964L13.5442 0.482559L7.68127 6.34548L1.81836 0.482559L0.681274 1.61964L6.54419 7.48256Z"
+							fill="black"
+						/>
+					</svg>
+				</span>
+				<div class="buy-now-step-wrapper success-modal-content-wrapper">
+					<svg
+						width="102"
+						height="102"
+						viewBox="0 0 102 102"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M0.5 51.4246C0.5 38.0311 5.82052 25.1863 15.2911 15.7157C24.7617 6.24508 37.6066 0.924561 51 0.924561C64.3934 0.924561 77.2383 6.24508 86.7089 15.7157C96.1795 25.1863 101.5 38.0311 101.5 51.4246C101.5 64.818 96.1795 77.6629 86.7089 87.1335C77.2383 96.604 64.3934 101.925 51 101.925C37.6066 101.925 24.7617 96.604 15.2911 87.1335C5.82052 77.6629 0.5 64.818 0.5 51.4246H0.5ZM48.1181 73.0386L77.1927 36.692L71.9407 32.4904L47.1485 63.4705L29.588 48.839L25.2787 54.0102L48.1181 73.0453V73.0386Z"
+							fill="#80FF94"
+						/>
+					</svg>
+					<h3>Thank you for registering with me!</h3>
+					<p>
+						You have registered for the Pro package (£70 per month)
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, animal omnesque has eu, ius
+						partem electram definitiones te. Vivendo eli
+					</p>
+					<button id="successPaymentDoneBtn" class="primary-btn">
+						Done
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
